@@ -1,0 +1,13 @@
+<!--miniprogram/pages/info/info.wxml-->
+
+
+<view class='container'>
+  <view class='card'>
+    <view class='card_title'>更新 v1.0.0</view>
+    <view class='card_content'>
+      <view class="card_content_item">1. 第一版</view>
+    </view>
+    <view class="card_footer">20200830</view>
+  </view>
+  <button open-type="contact">联系客服</button>
+</view>

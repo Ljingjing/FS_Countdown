@@ -1,0 +1,86 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "scopeDataCheck": false
+  },
+  "appid": "wx6ca61fce459b6a12",
+  "projectname": "FS_Countdown",
+  "libVersion": "2.2.5",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "pages/clock/clock",
+          "pathName": "pages/clock/clock",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/timer/timer",
+          "pathName": "pages/timer/timer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/countdown/countdown",
+          "pathName": "pages/countdown/countdown",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

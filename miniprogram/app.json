@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/info/info",
+    "pages/timer/timer",
+    "pages/clock/clock",
+    "pages/countdown/countdown",
+    "pages/clock/FS_clock",
+    "pages/timer/FS_timer",
+    "pages/countdown/countdown_setting",
+    "pages/countdown/FS_countdown"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "倒计时程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#3f3f3f",
+    "selectedColor": "#58e2c2",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "时钟",
+        "selectedIconPath": "images/clock1.png",
+        "iconPath": "images/clock.png"
+      },
+      {
+        "pagePath": "pages/countdown/countdown",
+        "text": "倒计时",
+        "selectedIconPath": "images/countdown1.png",
+        "iconPath": "images/countdown.png"
+      },
+      {
+        "pagePath": "pages/timer/timer",
+        "text": "计时",
+        "selectedIconPath": "images/stopwatch1.png",
+        "iconPath": "images/stopwatch.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "信息",
+        "selectedIconPath": "images/info1.png",
+        "iconPath": "images/info.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": ["audio"],
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
